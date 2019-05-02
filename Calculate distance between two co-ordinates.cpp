@@ -7,7 +7,10 @@ int main()
     float x1, x2, y1, y2, sum1, sum2, total;
 
     cout << "Enter the two co-ordinates" << endl;
-    cin >> x1 >> y1 >> x2 >> y2;
+    cout<<"Enter x axis of first Point: ";      cin>>x1;
+    cout<<"Enter y axis of first Point: ";      cin>>y1;
+    cout<<"Enter x axis of second Point: ";      cin>>x2;
+    cout<<"Enter y axis of second Point: ";      cin>>y2;
 
     sum1 = x1 - x2;
     sum2 = y1 - y2;
@@ -17,8 +20,10 @@ int main()
 
     total = sum1 + sum2;
 
-    cout << "Distance between both co-ordinates are   " << sqrt(total) << endl;
+    cout << endl << endl <<"Distance between both co-ordinates are   " << sqrt(total) << endl;
 
-    system("PAUSE"); //for debuging
+    
+    cout<<endl<<endl<<endl;     //just for looking good
+    system("PAUSE");            //for debuging
     return 0;
 }
