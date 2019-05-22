@@ -16,5 +16,5 @@ For any queries mail me on that same email.
 
 
 
-If you have better idea regarding some projects then fill free to commit..
+If you have better idea regarding any project then feel free to commit..
 Your name and github website would be mentioned in this file.
