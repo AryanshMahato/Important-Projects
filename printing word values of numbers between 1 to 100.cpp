@@ -6,10 +6,43 @@ using namespace std;
 int main()
 {
     int n;
+    cout<<"Enter the Number: ";
     cin>>n;
     string value=" ", value2= " ";
 
-        if(n==0){
+        if(n>=11 && n<=19){
+            if (n==11){
+            value= "Eleven";
+        }
+        if (n==12){
+            value= "Twelve";
+        }
+        if (n==13){
+            value= "Thirteen";
+        }
+        if(n==14){
+            value="Fourteen";
+        }
+        if(n==15){
+            value="Fifteen";
+        }
+        if(n==16){
+            value="Sixteen";
+        }
+        if(n==17){
+            value="Seventeen";
+        }
+        if(n==18){
+            value="Eigtheen";
+        }
+        if(n==19){
+            value="Nineteen";
+        }
+        }
+
+        else
+        {
+            if(n==0){
             value="zero";
         }
         if(n==1 || n%10== 1 ){
@@ -41,35 +74,8 @@ int main()
 		}
         if (n==10){
             value= "ten";
-        }
+        }        
 
-        if (n==11){
-            value= "Eleven";
-        }
-        if (n==12){
-            value= "Twelve";
-        }
-        if (n==13){
-            value= "Thirteen";
-        }
-        if(n==14){
-            value="Fourteen";
-        }
-        if(n==15){
-            value="Fifteen";
-        }
-        if(n==16){
-            value="Sixteen";
-        }
-        if(n==17){
-            value="Seventeen";
-        }
-        if(n==18){
-            value="Eigtheen";
-        }
-        if(n==19){
-            value=="Nineteen";
-        }
         if (n==20 || n/10==2){
             value2= "Twenty";
         }
@@ -93,9 +99,9 @@ int main()
         }
         if(n==90 || n/10==9){
             value2="Ninty";
-        }
+        }}
 
-        cout<<endl<<endl<<value2<<" "<<value<<endl<<endl;
+        cout<<endl<<"You Entered: "<<value2<<" "<<value<<endl<<endl;
     
 
     cout<<endl<<endl;
